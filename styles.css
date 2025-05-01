@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: serif;
+    font-size:10px;
+    padding: 10px;
+    width: 250px;
+    background-color: rgb(42, 42, 42);
+    color: #fcd34d;
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 6px;
+    font-family: serif;
+    background-color: #374151; 
+    color:  #fcd34d;
+    font-weight: 600;
+
+    border-radius: 10px;
+    border: none;
+}
+
+input::placeholder {
+    color:#fcd34dbc;
+    
+}
+
+input:focus {
+    outline: none;  
+    background-color: rgba(55, 65, 81, 0.8);
+}
+
+button {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 10px;
+    font-family: serif;
+    background-color: #FBBF24; 
+    color:  rgb(42, 42, 42);
+    font-weight: 600;
+
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 10px;
+    font-family: serif;
+    background-color: #F59E0B;
+    color:  rgb(42, 42, 42);
+    font-weight: 600;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.group-name {
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+hr {
+    border-color:#F59E0B;
+}
+
+
+
+
+.btn-container {
+    display: flex;
+    width: 100%;
+  }
+
+/* Style The Dropdown Button */
+.dropbtn {
+    border: none;
+    cursor: pointer;
+
+    height:30px;
+    flex: 8;
+}
+
+.delbtn {
+    flex: 1;
+    margin-left:5px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    width:100%;
+    margin-top:2px;
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    background-color: #374151;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color:#FBBF24;
+
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: rgba(55, 65, 81, 0.8);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
