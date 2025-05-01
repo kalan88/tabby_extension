@@ -1,4 +1,4 @@
-#Tabby - Tab Saver Extension
+Tabby - Tab Saver Extension
 
 Tabby is a simple tab management extension that helps you save and organize your browser tabs into groups, making it easy to open them later.
 
@@ -12,7 +12,7 @@ Features:
 
 Installation:
 
-        Firefox (Temporary Install)
+    Firefox (Temporary Install)
 
         Open Firefox.
 
